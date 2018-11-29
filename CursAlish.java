@@ -49,6 +49,7 @@ public class CursAlish {
 		String str1 = sc2.nextLine();
 		System.out.println(" ");
 		System.out.println("You enter very umnuyu frazu: " + str1 + "  " + str);
+		System.out.println(" ");
 		
 		System.out.println("Enter num 22: ");
 		int vv = sc1.nextInt();
@@ -57,6 +58,7 @@ public class CursAlish {
 			vv = sc1.nextInt();
 		}
 		System.out.println("Allilluiiya!!! You enter num 22 ");
+		System.out.println(" ");
 		
 		int z;
 		do {
@@ -64,6 +66,40 @@ public class CursAlish {
 		    z = sc1.nextInt(); }
 		while(z != 22);
 		System.out.println("Allilluiiya!!! You enter num 22 ");
+		System.out.println(" ");
+		
+		int bbb = 0;
+		while(true) {
+			if(bbb==210) {
+			break;}
+			System.out.println(bbb);
+			bbb = bbb+10;
+		}
+		System.out.println("Allilluiiya!!! We get out from cycle!!! ");
+		  System.out.println(" ");
+		
+		for(int i=0; i<=200;i+=10) {
+			if(i%2==0){
+			continue;}
+		    System.out.println("The number:  " + i + " is nechetne!!! ");
+		}
+		  System.out.println(" ");
+		  System.out.println(" Enter your fucking age: ");
+		  int age = sc1.nextInt();
+		  switch(age){
+			case 0 :
+			         System.out.println("You are born!!! MatherFucker!!! ");
+					 break;
+			case 7 :
+                     System.out.println("You went to school!!! Suka!!! ");	
+                     break;
+			case 17 : 
+                     System.out.println("You will go to ZSU!!! Skotina!!! ");			
+		             break;
+			default : 
+		  System.out.println("You are tvar somebody!!! Fuck!!! ");	
+		  }		
+		
 			
 		
 		
