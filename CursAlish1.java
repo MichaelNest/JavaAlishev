@@ -53,7 +53,10 @@ public class CursAlish1 {
 			for (int i = 0; i < matrics2.length; i++) {
                  for (int j = 0; j < matrics2[i].length; j++) {
 				 System.out.print(matrics2[i][j] + " ");}
-			System.out.println();}				 
+			System.out.println();}
+			System.out.println();
+            System.out.println("EveryThing is good!!");
+			
 							
 		
 		
